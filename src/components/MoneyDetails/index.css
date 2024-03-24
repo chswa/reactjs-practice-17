@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.list-item-container {
+  display: flex;
+  border: 2px solid #84cc16;
+  border-radius: 10px;
+  background-color: #ecfccb;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.money-content {
+  margin-left: 10px;
+}
+.text-content {
+  font-size: 10px;
+}
+rs-content {
+  font-size: 10px;
+}
+.income-item-container {
+  display: flex;
+  border: 2px solid #06b6d4;
+  border-radius: 10px;
+  background-color: #cffafe;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.income-content {
+  margin-left: 10px;
+}
+.income-text {
+  font-size: 10px;
+}
+rs-income {
+  font-size: 10px;
+}
+
+.expenses-item-container {
+  display: flex;
+  border: 2px solid #7c3aed;
+  border-radius: 10px;
+  background-color: #ede9fe;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.expenses-content {
+  margin-left: 10px;
+}
+.expenses-text {
+  font-size: 10px;
+}
+rs-expenses {
+  font-size: 10px;
+}
+.details-img{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}

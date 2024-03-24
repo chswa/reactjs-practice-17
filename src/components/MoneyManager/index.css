@@ -1,0 +1,147 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  padding: 30px;
+}
+.money-manager-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  background-size: cover;
+}
+.money-manager-heading {
+  font-size: 20px;
+  color: #475569;
+}
+.money-mangaer-description {
+  font-size: 15px;
+  color: #7e858e;
+}
+.span-money-manager {
+  color: #0b69ff;
+}
+@media (min-width: 768px) {
+  .money-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+    list-style-type: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .transaction-container {
+    display: flex;
+  }
+}
+
+.transaction-form-container {
+}
+.form {
+  padding: 20px;
+  border: 1px solid #7e858e;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.form-heading {
+  font-size: 16px;
+  color: #334155;
+}
+.title-label {
+  font-size: 12px;
+  color: #d7dfe9;
+  margin-bottom: 3px;
+}
+.title-input {
+  padding: 3px;
+  font-size: 12px;
+}
+.title-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.amount-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.amount-input {
+  padding: 3px;
+  font-size: 12px;
+}
+.amount-label {
+  font-size: 12px;
+  color: #d7dfe9;
+  margin-bottom: 3px;
+}
+.type-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.type-input {
+  padding: 3px;
+  font-size: 12px;
+}
+.type-label {
+  font-size: 12px;
+  color: #d7dfe9;
+  margin-bottom: 3px;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  border: 0px;
+  color: #ffff;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.transaction-history-container {
+  padding: 20px;
+  border: 1px solid #7e858e;
+}
+@media (min-width: 679px) {
+  .transaction-history-container {
+    width: 24%;
+  }
+}
+.transaction-heading {
+  font-size: 16px;
+  color: #334155;
+}
+.history-container {
+  padding: 0px;
+}
+.each-history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #7e858e;
+}
+.title-history {
+  margin-right: 15px;
+  font-size: 12px;
+  color: #334155;
+  font-weight: bold;
+  margin: 5px;
+}
+.amount-history {
+  margin-right: 15px;
+  font-size: 12px;
+  color: #334155;
+  font-weight: bold;
+  margin: 5px;
+}
+.type-history {
+  margin-right: 5px;
+  font-size: 12px;
+  color: #334155;
+  font-weight: bold;
+  margin: 5px;
+}

@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.each-history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #7e858e;
+}
+.title-history {
+  margin-right: 15px;
+  font-size: 12px;
+  color: #334155;
+
+  margin: 5px;
+}
+.amount-history {
+  margin-right: 15px;
+  font-size: 12px;
+  color: #334155;
+  margin: 5px;
+}
+.type-history {
+  margin-right: 5px;
+  font-size: 12px;
+  color: #334155;
+  margin: 5px;
+}
